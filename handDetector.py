@@ -15,7 +15,7 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 # --- Modelo YOLO ---
 model = YOLO("weights.pt")
 class_names = model.names if hasattr(model, 'names') else None
-print(f"Class names: {class_names}")
+#print(f"Class names: {class_names}")
 
 # --- Annotators supervision ---
 try:
